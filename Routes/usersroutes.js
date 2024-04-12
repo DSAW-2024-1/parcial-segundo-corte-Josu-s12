@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+ 
 const usuarios = [
     { nombre: "SAMUEL", apellido: "ACERO GARCIA", correo: "samuelacga@unisabana.edu.co" },
     { nombre: "DAREK", apellido: "ALJURI MARTINEZ", correo: "darekalma@unisabana.edu.co" },

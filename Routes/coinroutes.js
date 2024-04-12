@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const router = express.Router();
-
+ 
 // Ruta para /coin/:coinName
 router.get('/:coinName', async (req, res) => {
     try {

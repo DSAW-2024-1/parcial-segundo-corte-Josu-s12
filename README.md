@@ -7,7 +7,7 @@
 - Utiliza las buenas prácticas de desarrollo que has aprendido en clase.
 - La evaluación se realizará en base a la funcionalidad correcta de las rutas, la claridad del código y la organización de tu aplicación.
 - Es importante que esta API esté desplegada y funcionando correctamente. Si la API no está desplegada en internet, el examen no será calificado y se otorgará una calificación de 0.
-
+ 
 ### Rutas
 1. **/coin/:coinName**
    - Descripción: Este endpoint debe consumir la API de CoinCap (https://docs.coincap.io/?version=latest) y recibir por parámetro el nombre de una moneda. Si el nombre de la moneda es válido, debe retornar un string con el siguiente formato: "El precio en dólares de la moneda para el día de hoy es X", donde X es el precio de la moneda en dólares según CoinCap. Si el nombre de la moneda no es válido, debe retornar un mensaje diciendo "El nombre de la moneda no fue encontrado en la base de datos".

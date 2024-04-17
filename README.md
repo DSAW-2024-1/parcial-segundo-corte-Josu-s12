@@ -1,12 +1,15 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/KsHSEX27)
+## Josue David Sarmiento Guarnizo (300234)
+### link de despliegue: https://parcial-segundocorte-lut5.vercel.app/
 ## Examen de Desarrollo Backend con Express
-
+ 
 ### Instrucciones Generales
 - El examen consta de tres partes, cada una correspondiente a una ruta de una API REST desarrollada con Express, todas deben desarrollarse dentro de la misma aplicación.
 - Utiliza la versión más reciente de Express para desarrollar la API.
 - Utiliza las buenas prácticas de desarrollo que has aprendido en clase.
 - La evaluación se realizará en base a la funcionalidad correcta de las rutas, la claridad del código y la organización de tu aplicación.
 - Es importante que esta API esté desplegada y funcionando correctamente. Si la API no está desplegada en internet, el examen no será calificado y se otorgará una calificación de 0.
-
+ 
 ### Rutas
 1. **/coin/:coinName**
    - Descripción: Este endpoint debe consumir la API de CoinCap (https://docs.coincap.io/?version=latest) y recibir por parámetro el nombre de una moneda. Si el nombre de la moneda es válido, debe retornar un string con el siguiente formato: "El precio en dólares de la moneda para el día de hoy es X", donde X es el precio de la moneda en dólares según CoinCap. Si el nombre de la moneda no es válido, debe retornar un mensaje diciendo "El nombre de la moneda no fue encontrado en la base de datos".
